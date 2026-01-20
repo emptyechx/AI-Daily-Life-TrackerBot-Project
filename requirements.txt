@@ -1,0 +1,97 @@
+# ============================================================================
+# CORE DEPENDENCIES
+# ============================================================================
+
+# Telegram Bot Framework
+aiogram==3.13.1
+
+# Environment variables
+python-dotenv==1.0.1
+
+
+# ============================================================================
+# DATABASE
+# ============================================================================
+
+# Supabase client
+supabase==2.9.0
+
+# PostgreSQL adapter (required by Supabase)
+psycopg2-binary==2.9.9
+
+
+# ============================================================================
+# AI / ML
+# ============================================================================
+
+# Google Generative AI (Gemini)
+google-generativeai==0.8.3
+
+
+# ============================================================================
+# SCHEDULING
+# ============================================================================
+
+# Job scheduling
+APScheduler==3.10.4
+
+# Timezone support
+pytz==2024.2
+
+
+# ============================================================================
+# TESTING (Development)
+# ============================================================================
+
+# Testing framework
+pytest==8.3.3
+pytest-asyncio==0.24.0
+
+# Test coverage
+pytest-cov==5.0.0
+
+
+# ============================================================================
+# CODE QUALITY (Development)
+# ============================================================================
+
+# Code formatter
+black==24.10.0
+
+# Linter
+flake8==7.1.1
+
+# Type checker
+mypy==1.13.0
+
+
+# ============================================================================
+# UTILITIES
+# ============================================================================
+
+# HTTP requests (if needed for external APIs)
+aiohttp==3.10.10
+
+# Date/time utilities
+python-dateutil==2.9.0
+
+
+# ============================================================================
+# NOTES
+# ============================================================================
+
+# Installation:
+#   pip install -r requirements.txt
+#
+# Update dependencies:
+#   pip list --outdated
+#   pip install --upgrade package-name
+#
+# Generate current requirements:
+#   pip freeze > requirements.txt
+#
+# Development installation:
+#   pip install -r requirements.txt
+#
+# Production installation (skip dev tools):
+#   pip install -r requirements.txt --no-dev
